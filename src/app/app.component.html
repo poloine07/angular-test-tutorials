@@ -22,7 +22,12 @@
 <div class="content" role="main">
 
   <h1>{{title}}</h1>
-  <app-heroes></app-heroes>
+  <nav>
+    <a routerLink="/heroes">Heroes</a>
+    <br>
+    <a routerLink="/">Main</a>
+  </nav>
+  <router-outlet></router-outlet>
   <app-messages></app-messages>
 
 </div>
